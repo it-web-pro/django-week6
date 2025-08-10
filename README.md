@@ -1,6 +1,6 @@
 # Week 6 - Introducing the Django Admin
 
-[Django tutorial part 2](https://docs.djangoproject.com/en/5.0/intro/tutorial02/)
+[Django tutorial part 2](https://docs.djangoproject.com/en/5.2/intro/tutorial02/)
 
 โดยปกติ website ที่มีการบันทึกข้อมูลลงฐานข้อมูลมักจะมีส่วนที่เป็นระบบหลังบ้านสำหรับให้ `admin` ของ website ใช้ในการแก้ไขข้อมูลในฐานข้อมูล หรือ แก้ไขการตั้งค่าระบบต่างๆ
 
@@ -186,4 +186,4 @@ class QuestionAdmin(admin.ModelAdmin):
 
 ![admin10](./images/admin10.png)
 
-ซึ่งจริงๆ แล้ว **Django Admin Site** นั้นสามารถ config ได้ยืดหยุ่น มีความสามารถหลากหลาย และ สามารถ custom ได้ค่อนข้างเยอะ ถ้าใครสนใจเพิ่มเติมสามารถไปอ่าน document เพิ่มเติมได้ที่ [The Django admin site](https://docs.djangoproject.com/en/5.0/ref/contrib/admin/#module-django.contrib.admin)
+ซึ่งจริงๆ แล้ว **Django Admin Site** นั้นสามารถ config ได้ยืดหยุ่น มีความสามารถหลากหลาย และ สามารถ custom ได้ค่อนข้างเยอะ ถ้าใครสนใจเพิ่มเติมสามารถไปอ่าน document เพิ่มเติมได้ที่ [The Django admin site](https://docs.djangoproject.com/en/5.2/ref/contrib/admin/#module-django.contrib.admin)
